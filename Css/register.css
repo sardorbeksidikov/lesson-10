@@ -1,0 +1,287 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: #01BAB3;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+}
+
+body {
+    max-width: 1366px;
+    /* border: 1px solid red; */
+    margin-right: auto;
+    margin-left: auto;
+    border: 2px solid #CCCCCC;
+
+
+}
+
+header {
+    width: 100%;
+    height: 56px;
+    /* border: 1px solid black; */
+
+}
+
+.menyu {
+    display: flex;
+    padding: 0px 99px;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #CCCCCC;
+}
+
+.img img {
+    align-items: center;
+}
+
+.nav-link {
+    margin-left: 50px;
+    color: rgba(0, 0, 0, 0.85);
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.nav-link button {
+    padding: 2px 9px;
+    border-radius: 5px;
+    border: 2px solid#CCCCCC;
+}
+
+.navbar button:hover {
+    color: #01BAB3;
+}
+
+.center {
+    width: 566px;
+    height: 981px;
+    /* border: 1px solid red; */
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.container {
+    width: 414.535px;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
+.container .trend {
+    padding-top: 40px;
+}
+
+.container h1 {
+    margin-top: 24px;
+}
+
+.login {
+    display: flex;
+    width: 70%;
+    justify-content: space-around;
+}
+
+
+.right img {
+    padding-top: -60px;
+}
+
+.left h3 {
+    color: #444150;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    padding-top: 16px;
+}
+
+.right a {
+    display: block;
+    color: var(--01-bab-3, #01BAB3);
+    font-family: Segoe UI;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 26px;
+    padding-top: 16px;
+}
+
+.right a:hover {
+    text-decoration: underline #01BAB3;
+}
+
+.email {
+    margin-top: 40px;
+}
+
+.email label {
+    color: #444150;
+    font-family: Segoe UI;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.email input {
+    width: 100%;
+    height: 48px;
+    flex-shrink: 0;
+    border-radius: 6px;
+    border: 1px solid #D9D9D9;
+    outline: none;
+    background: #FBFBFB;
+    padding-left: 20px;
+    margin-top: 8px;
+    padding: 0px 20px;
+    font-size: 15px;
+}
+
+.phone {
+    margin-top: 24px;
+}
+
+.phone label {
+    color: #444150;
+    font-family: Segoe UI;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.phone input {
+    width: 100%;
+    height: 48px;
+    flex-shrink: 0;
+    border-radius: 6px;
+    border: 1px solid #D9D9D9;
+    outline: none;
+    background: #FBFBFB;
+    padding-left: 20px;
+    margin-top: 8px;
+    padding: 0px 20px;
+    font-size: 15px;
+}
+
+.container span {
+    color: #01BAB3;
+}
+
+.country-city {
+    display: flex;
+    justify-content: space-between;
+}
+
+.country-city {
+    margin-top: 24px;
+}
+
+.country {
+    width: 45%;
+}
+
+.country select {
+    width: 100%;
+    height: 48px;
+    flex-shrink: 0;
+    border-radius: 6px;
+    border: 1px solid #D9D9D9;
+    outline: none;
+    background: #FBFBFB;
+    padding-left: 20px;
+    margin-top: 8px;
+    padding: 0px 20px;
+    font-size: 15px;
+}
+
+.city input {
+    width: 100%;
+    height: 48px;
+    flex-shrink: 0;
+    border-radius: 6px;
+    border: 1px solid #D9D9D9;
+    outline: none;
+    background: #FBFBFB;
+    padding-left: 20px;
+    margin-top: 8px;
+    padding: 0px 20px;
+    font-size: 15px;
+}
+
+.city {
+    width: 45%;
+
+}
+
+.password {
+    margin-top: 24px;
+    position: relative;
+}
+
+.password label {
+    color: #444150;
+    font-family: Segoe UI;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.password input {
+    width: 100%;
+    height: 48px;
+    flex-shrink: 0;
+    border-radius: 6px;
+    border: 1px solid #D9D9D9;
+    outline: none;
+    background: #FBFBFB;
+    padding-left: 20px;
+    margin-top: 8px;
+    padding: 0px 20px;
+    font-size: 15px;
+}
+
+.password i {
+    position: absolute;
+    top: 46px;
+    right: 15px;
+    font-size: 20px;
+    cursor: pointer;
+
+}
+
+.Register {
+    width: 100%;
+    height: 51.183px;
+    border-radius: 6px;
+    background-color: #01BAB3;
+    border: none;
+    color: white;
+    font-size: 18px;
+    margin-top: 90px;
+}
+
+.container p {
+    width: 399.704px;
+    height: 46.917px;
+    flex-shrink: 0;
+    color: #778699;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    padding-top: 25px;
+}
